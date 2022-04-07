@@ -9,7 +9,7 @@ Ubuntu:     sudo apt-get update
 docker --version                          checks your version of docker
 docker pull <imagename>                   downloads container from dockerhub automatically 
 sudo docker pull ubuntu                   downloads latest image for ubuntu on our system
-sudo docker images 	                      shows images that were downloaded and the size
+sudo docker images 	                  shows images that were downloaded and the size
  
 sudo docker run -it -d <imagename>
 sudo docker run -it -d ubuntu
